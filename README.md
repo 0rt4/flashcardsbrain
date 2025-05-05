@@ -30,11 +30,6 @@ pero digital, ordenada y con esteroides visuales.
 - TailwindCSS
 
 ⚙️ Cómo correrlo
-  git clone https://github.com/tuusuario/flashcardsbrain.git
-  cd flashcardsbrain
-  npm install
-  npm run dev
-
 ```bash
   git clone https://github.com/tuusuario/flashcardsbrain.git
   cd flashcardsbrain
