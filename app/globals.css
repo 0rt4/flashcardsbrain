@@ -1,62 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "tailwindcss";
 
-{/*
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-light: #ffffff;
+  --foreground-light: #171717;
+  --background-dark: #0a0a0a;
+  --foreground-dark: #ededed;
 }
-*/}
-
-
-:root {
-  --background: #171717;
-  --foreground: #ffffff;
-}
-
-
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-Title: 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Courier New', monospace;
+  --font-title: 'Inter', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
   }
+}
+
+:root {
+  --background: var(--background-light);
+  --foreground: var(--foreground-light);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
 
 @layer base {
   h1 {
-    @apply text-2xl font-bold;
+    @apply text-lg font-semibold;
     font-family: var(--font-title);
   }
   h2 {
-    @apply text-xl;
+    @apply text-sm;
     font-family: var(--font-title);
   }
 }
 
 @layer components {
-  .sidebar {
-    @apply resize-x overflow-auto min-w-[200px] max-w-[400px] p-4;
+  .Sidebar {
+    @apply resize-x overflow-auto min-w-[200px] max-w-[400px] p-4 bg-gradient-to-br from-blue-300 to-indigo-100;
   }
   .button {
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700;
   }
+  .button-yellow {
+    @apply w-full bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 rounded-md flex items-center justify-center transition-colors duration-300;
+  }
   .Braincard {
     @apply bg-white rounded overflow-hidden shadow-md;
   }
-
 }

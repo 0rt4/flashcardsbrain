@@ -13,15 +13,20 @@ export default function Home() {
 
   return (
       <div className="flex flex-col h-screen">
-        <Header />
-        <div className="flex flex-1 overflow-hidden">
+        <div className="bg-red-300">
+          <Header />
+        </div>
+
+        <div className="flex flex-1 overflow-auto">
           <div className="Sidebar">
-            <Sidebar />
+              <Sidebar />
           </div>
-          <div className="flex-1 p-4 bg-blue-300">
+          
+          <div className="flex flex-col flex-1 overflow-auto">
             <InterfaceCards />
           </div>
-        </div>
+       </div>
+
       </div>
 
   );
