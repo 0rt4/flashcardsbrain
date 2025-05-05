@@ -14,15 +14,12 @@ pero digital, ordenada y con esteroides visuales.
 - (Próximamente) acomódalas en un canvas libre o mapa mental
 ¡Da seguimiento a tu propio tren de pensamiento sin perder contexto!
 
-##🧩 Casos de uso reales:
+🧩 Casos de uso reales:
 🧠 Memorizar cosas precisas (datos, frases, fechas, fórmulas)
 🧠 Darle continuidad a ideas sueltas
 🧠 Organizar pensamientos como en una pared de post-its
 🧠 Preparar discursos, historias, guiones, ensayos o investigaciones
 
-🚀 ¿Y cómo se ve?
-(inserta una captura aquí cuando tengas una buena)
-📸 Tarjetas flotantes + sidebar útil + botón mágico de “Añadir tarjeta”
 
 🛠 Tecnologías al mando
 - Typescript
@@ -36,9 +33,21 @@ pero digital, ordenada y con esteroides visuales.
   npm install
   npm run dev
 ```
+🤝 Cómo contribuir
+1. Haz un fork del repositorio.
+2. Crea una rama con la funcionalidad o fix (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz un push a tu rama (`git push origin feature/nueva-funcionalidad`).
+4. Abre un Pull Request.
+
 
 🔮 Roadmap mental
-🧲 Entorno libre: mueve las tarjetas donde quieras
-🕸️ Mapa mental visual: conecta ideas en red
-🌓 Modo oscuro para que la inspiración no te queme los ojos
-🧠 IA para sugerencias de relaciones entre tarjetas (algún día)
++ 🧲 Entorno libre / Drag & Drop: mueve las tarjetas donde quieras
++ 🔍 Búsqueda avanzada: filtrar por palabras clave, categorías o fechas
++ 🖼️ Soporte para multimedia: añade imágenes 🖼️ o notas de audio 🎙️ a tus tarjetas
++ 🕸️ Mapa mental visual: conecta ideas en red como neuronas
++ 🌙 Modo oscuro: para que la inspiración no te queme los ojos de noche
++ 🎨 Temas personalizados: ajusta colores y estilos a tu gusto
++ 📤 Exportar / Importar: lleva tus tarjetas en PDF, CSV o JSON
++ ⏰ Notificaciones o recordatorios: para revisar con técnicas de repetición espaciada
++ 🤖 IA para sugerencias: encuentra relaciones entre tarjetas automáticamente
++ 🧾 Generación automática de tarjetas: resume artículos o textos largos en tarjetas útiles
