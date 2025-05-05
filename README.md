@@ -38,7 +38,7 @@ pero digital, ordenada y con esteroides visuales.
 ```
 
 🔮 Roadmap mental
-  🧲 Entorno libre: mueve las tarjetas donde quieras
-  🕸️ Mapa mental visual: conecta ideas en red
-  🌓 Modo oscuro para que la inspiración no te queme los ojos
-  🧠 IA para sugerencias de relaciones entre tarjetas (algún día)
+🧲 Entorno libre: mueve las tarjetas donde quieras
+🕸️ Mapa mental visual: conecta ideas en red
+🌓 Modo oscuro para que la inspiración no te queme los ojos
+🧠 IA para sugerencias de relaciones entre tarjetas (algún día)
