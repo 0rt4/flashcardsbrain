@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "tailwindcss";
+@import "../src/Styles/flashcard-form.css";
+
+
 
 :root {
   --background-light: #ffffff;
@@ -49,6 +52,9 @@ body {
   }
   .button {
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700;
+  }
+  .button-Blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 flex items-center;
   }
   .button-yellow {
     @apply w-full bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 rounded-md flex items-center justify-center transition-colors duration-300;

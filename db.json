@@ -1,0 +1,7 @@
+{
+    "flashcards": [
+      { "id": 1, "term": "¿Qué es React?", "definition": "Una librería para construir interfaces UI" },
+      { "id": 2, "term": "¿Qué es TypeScript?", "definition": "Un superset de JavaScript con tipado estático" }
+    ]
+  }
+  
